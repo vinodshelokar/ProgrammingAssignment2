@@ -1,13 +1,13 @@
 ###############################################################################################################################
-## Following code combination of two functions creates inverse of the matrics 
-## Please note this is applicable only for invertable matrix
-## First function 'makeCacheMatrix' creates cashe of inverse Matrix 
-## Second function 'cacheSolve' inverse the cached matrix
+## Following code combination of two functions creates inverse of the matrics                                                 #
+## Please note this is applicable only for invertable matrix                                                                  #  
+## First function 'makeCacheMatrix' creates cashe of inverse Matrix                                                           #
+## Second function 'cacheSolve' inverse the cached matrix                                                                     #    
 ###############################################################################################################################
 
 ###############################################################################################################################
 ###############################################################################################################################
-## This function cache the inverse of the matrix
+## This function cache the inverse of the matrix                                                                              #    
 ###############################################################################################################################
 makeCacheMatrix = function(matx = matrix()) {
                   var1 = NULL                             ## Initializing var1 to null
@@ -31,7 +31,7 @@ makeCacheMatrix = function(matx = matrix()) {
 
 ###############################################################################################################################
 ###############################################################################################################################
-## This Function computes inverse of Matrix.
+## This Function computes inverse of Matrix.                                                                                  #
 ###############################################################################################################################
 cacheSolve      = function(matx, ...) {
                   var1 = matx$getinverse()                  ## Getting cashed value of inverse (Generated in previous function)  
